@@ -66,10 +66,27 @@ public class App
                   .genero(Genero.HOMBRE)
                   .salario(3500.50)
                   .build(),
-          Persona.builder().nombre("Ruben").genero(Genero.HOMBRE).salario(4000.45).build()
-          Persona.builder().nombre("Margarita").genero(Genero.MUJER).salario(2400.30).build()
-          Persona.builder().nombre("Susana").genero(Genero.MUJER).salario(3000.00).build()
+          Persona.builder().nombre("Ruben").genero(Genero.HOMBRE)
+                  .salario(4000.45).build()
+          Persona.builder().nombre("Margarita").genero(Genero.MUJER)
+                  .salario(2400.30).build()
+          Persona.builder().nombre("Susana").genero(Genero.MUJER)
+                  .salario(3000.00).build()
       };
+
+      /** Recorrer los arrays
+       * 
+       * Sentencias de control de flujo (if, switch case, for clasico,
+       * for mejorado (MAL LLAMADO FOR EACH),
+       * while, do while, break, continue, y los operadores de autoincremento
+       * y auto decremento, ademas de los operadores logicos)
+       * 
+       */
+
+
+
+
+
 
 
 
