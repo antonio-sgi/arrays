@@ -2,15 +2,15 @@ package com.example;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 @Builder
+@Data
 public class Persona {
 
     private String nombre;
@@ -20,4 +20,9 @@ public class Persona {
     private double salario;
 
 
-}
+    }
+
+    
+
+
+
